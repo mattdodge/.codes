@@ -4,8 +4,10 @@ title: Tweet-2-RSS has been shut down
 date: 2013-10-03 09:56:25
 permalink: /tweet-2-rss-has-been-shut-down/
 dsq_thread_id: 1821560515
+header-img: "img/sad-twitter.jpg"
+header-bg-color: "#4295c8"
 ---
-<img class="alignright  wp-image-265" alt="sad-twitter" src="http://mattdodge.net/wp-content/uploads/2013/10/sad-twitter.jpeg" width="165" height="200" />A few months back I created a service that would allow people to get tweets or other content from the Twitter API in RSS or XML format. It ended up growing a moderate amount and amassed over 2,500 users. Well, some frustrating and disappointing news came through yesterday; the Twitter API team has suspended the Tweet-2-RSS application for violation of the Terms of Service. They did so without any warning and it was certainly a surprise to me. Here is the relevant quote from their <a title="Twitter API TOS" href="https://dev.twitter.com/terms/api-terms" target="_blank">API Terms</a> (Section I.4):<!--more-->
+A few months back I created a service that would allow people to get tweets or other content from the Twitter API in RSS or XML format. It ended up growing a moderate amount and amassed over 2,500 users. Well, some frustrating and disappointing news came through yesterday; the Twitter API team has suspended the Tweet-2-RSS application for violation of the Terms of Service. They did so without any warning and it was certainly a surprise to me. Here is the relevant quote from their <a title="Twitter API TOS" href="https://dev.twitter.com/terms/api-terms" target="_blank">API Terms</a> (Section I.4):<!--more-->
 
 > You will not attempt or encourage others to sell, rent, lease, sublicense, redistribute, or syndicate access to the Twitter API or Twitter Content to any third party without prior written approval from Twitter. If you provide downloadable datasets of Twitter Content or an API that returns Twitter Content, you may only return IDs (including tweet IDs and user IDs).
 
@@ -15,7 +17,7 @@ There are dozens of uses for getting RSS/XML Twitter data; use in existing RSS r
 
 > Services which provide XML/RSS output of Twitter Content are disallowed per our API Terms of Service, unless they only return IDs. If you have encountered other services which engage in this activity please let us know and we will investigate them for compliance with our Rules.
 
-I "politely" responded that I would not snitch on fellow developers who are simply trying to make the web a better place and that they could do their own f*%king homework to find them.
+I "politely" responded that I would not snitch on fellow developers who are simply trying to make the web a better place and that they could do their own homework to find them.
 
 To the users of Tweet-2-RSS, I apologize for the sudden suspension. It came as a surprise to me as well. Even though Twitter can't seem to do some simple Googling, there are other services out there that will accomplish the same thing. However, be warned that they are most likely in violation of the same terms. For now, Tweet-2-RSS will just return some empty XML results so your plugins won't "break" or throw exceptions. It will just look like there is no content. To those of you who donated and helped out with the hosting costs: I greatly appreciate the support and help. I will be refunding your donations considering the service is no longer operating. Wait for an email from me.
 
