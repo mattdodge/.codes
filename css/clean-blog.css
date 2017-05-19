@@ -205,6 +205,10 @@ hr.small {
     font-size: 30px;
   }
 }
+.header-fixed-image {
+  background-size: contain;
+  background-position: right;
+}
 .post-preview > a {
   color: #404040;
 }
