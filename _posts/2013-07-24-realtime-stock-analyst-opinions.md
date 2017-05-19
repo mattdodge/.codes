@@ -4,6 +4,7 @@ title: Realtime Stock Analyst Opinions
 date: 2013-07-24 16:11:33
 permalink: /realtime-stock-analyst-opinions/
 dsq_thread_id: 1528400388
+header-img: "img/post-stock.jpg"
 ---
 
 Two words: WolframAlpha. Or is that one word? I don't know, but what I do know is that it is a lifesaver for any engineering student these days. Unfortunately for me, it only really existed during my senior year of college, which happened to be the year I got the highest GPA. Coincidence? Probably.
