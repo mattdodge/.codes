@@ -12,8 +12,7 @@ github_username:  mattdodge
 email_username:  hi@mattdodge.codes
 
 # Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-google_tracking_id: UA-3794533-1
+google_tracking_id: UA-3794533-6
 
 # Build settings
 markdown: kramdown
