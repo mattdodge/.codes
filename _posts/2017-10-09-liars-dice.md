@@ -2,7 +2,7 @@
 layout: post
 title: A Statistical Look at Liar's Dice
 subtitle: The Gambler vs The Mathematician
-date: 2017-10-07 09:56:25
+date: 2017-10-09 20:56:25
 permalink: /statistical-look-at-liars-dice/
 header-img: "img/dice.jpg"
 medium-link: https://medium.com/@that314guy/a-statistical-look-at-liars-dice-the-gambler-vs-the-mathematician-42d3a96a88d1
