@@ -136,6 +136,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  position: relative;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -149,6 +150,15 @@ hr.small {
   .intro-header .page-heading {
     padding: 150px 0;
   }
+}
+.intro-header:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
 }
 .intro-header .site-heading,
 .intro-header .page-heading {
@@ -204,10 +214,6 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
-}
-.header-fixed-image {
-  background-size: contain;
-  background-position: right;
 }
 .post-preview > a {
   color: #404040;

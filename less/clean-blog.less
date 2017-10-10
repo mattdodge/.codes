@@ -172,6 +172,17 @@ hr.small {
 			padding: 150px 0;
 		}
 	}
+	// Make our header images have a transparent layer over them for visibility
+	position: relative;
+	&:before { 
+		content: '';
+		background-color: rgba(0,0,0,0.3);
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+	}
 	.site-heading,
 	.page-heading {
 		text-align: center;
