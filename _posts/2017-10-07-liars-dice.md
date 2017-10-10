@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Statistical Look at Liar's Dice
-subtitle: The Gambler vs The Mathemetician
+subtitle: The Gambler vs The Mathematician
 date: 2017-10-07 09:56:25
 permalink: /statistical-look-at-liars-dice/
 header-img: "img/dice.jpg"
@@ -29,7 +29,7 @@ On the other side of this bet was my friend Kurt. Kurt, a long time card-player,
 
 My quick math showed me that the person with all 6 dice would only lose if the opponent had the same number they called, or had a `1` (wild card). Given `1, 1, 3, 4, 4, 5` and a call of four `4`s, the underdog only wins when he has a `4` or a `1`, thus allowing him to call five `4`s and win. Rolling a `1` and another specific roll will happen 1 in 3 times and it needs to happen 6 times in a row in order to lose. In other words, only 1 in 729 times will the underdog win.
 
-Kurt did some other kind of gambler's voodoo magic in his head and boldly exclaimed "if you give me 1 dice against your 6 15 times in a row, I bet you I win one." Me having just calcuated the odds with 100% certainty (maybe not...) saw an opportunity to strike. I replied "you're on" so quickly that Kurt second-guessed himself based on my confidence. I balked a bit at his request for 2:1 odds (he's already getting odds by running it 15 times) but eventually gave in, thinking I was still a statistical lock.
+Kurt did some other kind of gambler's voodoo magic in his head and boldly exclaimed "if you give me 1 dice against your 6 15 times in a row, I bet you I win one." Me having just calculated the odds with 100% certainty (maybe not...) saw an opportunity to strike. I replied "you're on" so quickly that Kurt second-guessed himself based on my confidence. I balked a bit at his request for 2:1 odds (he's already getting odds by running it 15 times) but eventually gave in, thinking I was still a statistical lock.
 
 6 dice vs 1 die. 15 times in a row.
 
@@ -49,7 +49,7 @@ I lost, and he didn't roll a duplicate or a `1`. I ended up winning that game an
 
 ### Simulation
 
-Now realizing the problem is possibly more compliated than simple statistics can solve, I set out to write a simple simulation script that could run many many trials to get an estimate of the odds. It also seemed to be a good opportunity to test out Jupyter Notebooks, something I had been meaning to do for a while. All of the code and iPython notebooks for this project is [available on GitHub](https://github.com/mattdodge/liars-dice).
+Now realizing the problem is possibly more complicated than simple statistics can solve, I set out to write a simple simulation script that could run many many trials to get an estimate of the odds. It also seemed to be a good opportunity to test out Jupyter Notebooks, something I had been meaning to do for a while. All of the code and iPython notebooks for this project is [available on GitHub](https://github.com/mattdodge/liars-dice).
 
 Building out the dice randomization, general gameplay flow, and my simple rule-based-no-bluffing strategy wasn't too tricky. The real variable in this situation is the strategy that Kurt should use.
 
