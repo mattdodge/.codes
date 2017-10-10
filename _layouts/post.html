@@ -29,6 +29,10 @@ layout: default
 
                 <hr>
 
+				{% if page.medium-link %}
+				<div class="medium-cross-post">This post has also been cross-posted to Medium. You can share and continue the conversation <a href="{{ page.medium-link }}" target="_blank">on the Medium post</a> as well.</div>
+			  {% endif %}
+
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">

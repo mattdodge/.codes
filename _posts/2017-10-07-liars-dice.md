@@ -5,6 +5,7 @@ subtitle: The Gambler vs The Mathematician
 date: 2017-10-07 09:56:25
 permalink: /statistical-look-at-liars-dice/
 header-img: "img/dice.jpg"
+medium-link: https://medium.com/@that314guy/a-statistical-look-at-liars-dice-the-gambler-vs-the-mathematician-42d3a96a88d1
 ---
 Liar's dice is a great game. Easy to learn, difficult to master. A good balance of luck and strategy. If you don't know the game, I encourage you to [check it out](https://en.wikipedia.org/wiki/Liar%27s_dice), it's great for a group. 
 
