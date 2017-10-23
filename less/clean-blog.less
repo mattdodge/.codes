@@ -47,6 +47,12 @@ a img {
 blockquote {
 	color: @gray;
 	font-style: italic;
+	font-size: 20px;
+
+	// Don't put the annoying top margin on the first p in a quote
+	p:first-child {
+		margin-top: 0;
+	}
 }
 
 hr.small {
