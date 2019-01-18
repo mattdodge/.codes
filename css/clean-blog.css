@@ -164,6 +164,9 @@ hr.small {
   right: 0;
   position: absolute;
 }
+.intro-header[header-opacity="dark"]:before {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;

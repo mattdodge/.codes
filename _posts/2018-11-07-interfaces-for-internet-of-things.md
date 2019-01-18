@@ -3,7 +3,8 @@ layout: post
 title: Interfaces for the Internet of Things
 date: 2018-11-07 15:14:00
 permalink: /interfaces-for-internet-of-things/
-header-img: "img/post-interfaces.jpg"
+header-img: "img/interfaces/header.jpg"
+header-opacity: dark
 medium-link: https://medium.com/@that314guy/interfaces-for-the-internet-of-things-29f274c5396
 ---
 
