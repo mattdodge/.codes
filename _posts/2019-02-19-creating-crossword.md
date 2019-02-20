@@ -5,6 +5,7 @@ date: 2019-02-19 15:14:00
 permalink: /creating-a-crossword/
 header-opacity: dark
 header-img: "img/xword/bg.jpg"
+medium-link: https://medium.com/@that314guy/creating-and-publishing-my-first-crossword-154bc93ff298
 ---
 
 My latest hobby is solving crossword puzzles. I've been doing the New York Times puzzle daily for the last 8 months or so and absolutely love it. I am constantly impressed and amazed by what the creators of these crosswords can do — build a complete and connected puzzle while still integrating humor, trivia, creativity, and puns.
