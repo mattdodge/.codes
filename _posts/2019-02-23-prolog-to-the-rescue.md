@@ -132,7 +132,7 @@ run(A, B) :-
 There are a few things to notice about our program now.
 
 1. We are hard-coding the age of lying to 20 for now, we'll variablize this soon.
-2. We've added the ability for a claim to have a `Claimant` as well - this the person making the claim.
+2. We've added the ability for a claim to have a `Claimant` as well - this is the person, potentially a liar, making the claim.
 3. We've added a second set of rules for each claim, now with one that supports a liar. Notice the inverted comparison operators in each set of claims. When Prolog looks through its rules it will find one that matches. We can create an "or" condition by specifying multiple possibilities for each claim - one for a lying claimant and one for one who tells the truth.
 4. We have added our claims and bounds to a `run` rule, this saves us some repetitive typing in the interpreter. Now we can just query `run(A, B)` and see the results. Let's do that now!
 
@@ -189,7 +189,7 @@ Check out what's new
 
 1. We import the `clpfd` module at the top of our program rules now, to get access to the constraint logic predicates.
 2. We prefix our comparison operators with the `#` symbol. So it's `Person #< Age` now instead of just `Person < Age`. These operators are documented [here](http://www.swi-prolog.org/pldoc/man?section=clpfd#sec:A.9.2) if you'd like to read more about them.
-3. We added a `not_liar` rule instead of using `not(liar)`. This is most likely due to my noob-ness with Prolog but I kept having trouble inverting the CLP constraint operators so I wrote it out explicitly.
+3. We added a `not_liar` rule instead of using `not(liar)`. This is most likely due to my lack of complete understanding of Prolog, but I kept having trouble inverting the CLP constraint operators so I wrote it out explicitly.
 4. Use `A in 10..40` instead of `between(10, 40, A)` in our `run` rule.
 
 Now check out our output when we run — much more readable!
