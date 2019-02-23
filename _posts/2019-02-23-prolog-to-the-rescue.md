@@ -38,7 +38,7 @@ So basically we have a group of 5 islanders with certain ages. Some of them are 
 
 ## Starting Small
 
-We'll start off with a very small subset of this puzzle. I'm going to show some Prolog syntax below. If you've never seen it before in your life it may look a little strange, I encourage you to read through [this wiki tutorial](https://en.wikibooks.org/wiki/Prolog/Introduction) first, it will give you the basics.
+We'll start off with a very small subset of this puzzle. I'm going to show some Prolog syntax below. If you've never seen it before it may look a little strange, I encourage you to read through [this wiki tutorial](https://en.wikibooks.org/wiki/Prolog/Introduction) first, it will give you the basics.
 
 I'm going to start with some simple claims about peoples ages.
 
@@ -156,7 +156,7 @@ Bet that's the first time you've seen those two words next to each other.
 
 Prolog is great at giving us multiple solutions to the problem. But we're going to be working a lot with ranges of ages. For the previous example, it would have been great if rather than iterating through every possible set of ages Prolog could have told us the range of ages that were possible in one go. Fortunately, Prolog provides a way to define "constraints" for values using something called [Constraint Logic Programming](https://en.wikibooks.org/wiki/Prolog/Constraint_Logic_Programming). Let's adapt our previous code to use constraints instead now.
 
-```
+```prolog
 :- use_module(library(clpfd)).
 
 liar(Claimant) :- Claimant #>= 20.
@@ -193,7 +193,7 @@ Check out what's new
 
 Now check out our output when we run — much more readable!
 
-```
+```prolog
 ?- run(A, B).
 B = 20,
 A in 15..18 ;
@@ -204,7 +204,7 @@ false.
 
 Up until now, we've been assuming that everyone over 20 is a liar. In reality, the age of that lying threshold is something we need to solve for as well. We'll do this by making another variable for the lying age and pass that through with our claims.
 
-```
+```prolog
 :- use_module(library(clpfd)).
 
 liar(Claimant, LieThreshold) :- Claimant #>= LieThreshold.
@@ -235,7 +235,7 @@ run(A, B, L) :-
 
 We've pretty much just added an argument to each of our rules that will keep track of the lying age threshold. We can test this by running again with our known threshold of 20.
 
-```
+```prolog
 ?- run(A, B, 20).
 B = 20,
 A in 15..18 ;
@@ -244,7 +244,7 @@ false.
 
 Cool, same result, that makes sense! But what if we want a variable lie threshold?
 
-```
+```prolog
 ?- run(A, B, L).
 A in 15..18,
 A#>=L,
@@ -266,7 +266,7 @@ This syntax is a little weirder but it makes sense if you parse it out. I won't 
 
 We've got a pretty slick claiming system in a rather succinct format (imagine writing this code in another language!), now it's just time to fill out the actual claims from the problem statement and see what our solution is! (obviously, spoilers ahead...)
 
-```
+```prolog
 :- use_module(library(clpfd)).
 
 liar(Claimant, LieThreshold) :- Claimant #>= LieThreshold.
@@ -324,7 +324,7 @@ A few quick things to note about the changes here:
 
 And now if we run it, with our ages and lying threshold as variables, we will see our solution:
 
-```
+```prolog
 ?- run([A, B, C, D, E], L).
 A = L, L = 19,
 B = 20,
