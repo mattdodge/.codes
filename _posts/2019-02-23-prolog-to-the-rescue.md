@@ -3,6 +3,7 @@ layout: post
 title: FiveThirtyEight Riddler - Prolog to the Rescue!
 date: 2019-02-22 15:14:00
 permalink: /prolog-to-the-rescue/
+medium-link: https://medium.com/@that314guy/fivethirtyeight-riddler-prolog-to-the-rescue-c622d7fac36e
 ---
 
 One of my weekly routines is to solve the [FiveThirtyEight Riddler](https://fivethirtyeight.com/tag/the-riddler/) puzzle. If you've never done them before, they are a set of weekly riddles that tend to involve math, logic, and statistics. Sometimes, though, they make you think. That's silly, thinking is what computers are for!
