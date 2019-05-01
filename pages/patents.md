@@ -6,7 +6,7 @@ header-img: "img/patents.jpg"
 header-opacity: dark
 ---
 
-I have been fortunate over the years of my career to have worked on several patented technologies, many in the realm of distributed computing. The following are issued patents for work I have invented along with links, images, and simplified descriptions.
+I have been fortunate over the years of my career to have invented several patented technologies, many in the realm of distributed computing. The following are issued patents for work I have invented along with links, images, and simplified descriptions.
 
  - [System and method for fully configurable real time processing](https://patents.google.com/patent/US9454385B2)  
  US 9,454,385 B2  
