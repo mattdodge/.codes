@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resume
+description: Hands-on software technology leader
 permalink: /resume
 redirect_from:
   - /cv
