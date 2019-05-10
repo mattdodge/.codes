@@ -63,7 +63,11 @@
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
-<script>var pj = new Pjax({"selectors":["body"], "cacheBust": false});</script>
+<script>var pj = new Pjax({
+	"elements": ["a:not([target])"],
+	"selectors":["body"],
+	"cacheBust": false
+});</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
