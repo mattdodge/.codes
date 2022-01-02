@@ -650,3 +650,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+article ol li {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
