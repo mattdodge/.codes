@@ -5,7 +5,7 @@ date: 2022-01-26 15:14:00
 header-opacity: dark
 header-img: "img/wordle_photo.jpeg"
 permalink: /wordle-bot/
-medium-link: https://medium.com/@that314guy/the-hardest-and-easiest-new-york-times-crossword-puzzles-of-2021-e214eef55f7e
+medium-link: https://medium.com/@that314guy/building-a-wordle-bot-in-under-100-lines-of-python-9b980539defb
 ---
 
 If you don't know what Wordle is, get out from under your rock and check it out. It's a simple game at surface level but does end up needing some strategy to master it. It didn't take more than a couple of rounds of playing it before my curiosity piqued and I felt the need to build a bot to play the game and learn more about it. Let's get going!
