@@ -21,7 +21,7 @@ This is the online version of my résumé/CV. To download a two-page PDF version
 **Director of DevOps & IT**  
 July 2019 - Present
 
-A series B fin-tech company in the mortgage industry focused on saving people money and streamlining the mortgage lending process. Learn more at [https://goloansnap.com](https://goloansnap.com).
+A series B fin-tech company in the mortgage industry focused on saving people money and streamlining the mortgage lending process. Learn more at [goloansnap.com](https://goloansnap.com).
 {:.smaller}
 </div>
 
@@ -45,7 +45,7 @@ A series B fin-tech company in the mortgage industry focused on saving people mo
 **CTO, Founder**  
 July 2013 - June 2019
 
-niolabs was a series A startup focused on making distributed systems and Internet of Things implementations easier for technical and non-technical users. Learn more at [https://niolabs.com](https://niolabs.com).
+niolabs was a series A startup focused on making distributed systems and Internet of Things implementations easier for technical and non-technical users. Learn more at [niolabs.com](https://niolabs.com).
 {:.smaller}
 </div>
 
@@ -66,7 +66,7 @@ niolabs was a series A startup focused on making distributed systems and Interne
 **Systems Integration Consultant**  
 July 2010 - July 2013
 
-Deloitte is a global management and strategy consulting and audit firm - I was part of the Systems Integration group within the Consulting practice. Learn more at [https://deloitte.com](https://deloitte.com).
+Deloitte is a global management and strategy consulting and audit firm - I was part of the Systems Integration group within the Consulting practice. Learn more at [deloitte.com](https://deloitte.com).
 {:.smaller}
 </div>
 
