@@ -39,13 +39,6 @@ a {
 	}
 }
 
-a img {
-	&:hover,
-	&:focus {
-		cursor: zoom-in;
-	}
-}
-
 blockquote {
 	color: @gray;
 	font-style: italic;
@@ -501,8 +494,8 @@ body {
 }
 
 // Article custom styling
-article {
-	ol {
+article, .container.page {
+	ol, ul {
 		li {
 			// Some extra padding on list items
 			margin-top: 4px;

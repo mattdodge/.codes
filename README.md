@@ -14,3 +14,8 @@ This is a Jekyll site, run locally and watch for changes like so:
 ```bash
 bundle exec jekyll serve
 ```
+
+For CSS changes
+```bash
+npm run watch
+```

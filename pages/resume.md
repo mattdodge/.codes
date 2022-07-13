@@ -1,42 +1,67 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 description: Hands-on software technology leader
 permalink: /resume
+header-img: "img/headshot.jpg"
 redirect_from:
   - /cv
 ---
 
-This is the online version of my resume/CV. To download a one-page PDF version of this resume [click here]({{ site.url }}/files/matt-dodge-resume.pdf){:target="_blank"}.
+This is the online version of my résumé/CV. To download a one-page PDF version of this résumé [click here]({{ site.url }}/files/matt-dodge-resume.pdf){:target="_blank"}.
 
 {::options parse_block_html="true" /}
 
-## Experience
+## Professional Experience
 ---
 <div class="container-fluid">
 <div class="col-lg-4">
-![niolabs](img/nio logo rectangle.png){:.p-r-lg .p-b-lg}
-**CTO, Founder**  
-July 2013 - Present
+[![LoanSnap](img/loansnap.png){:.p-r-lg .p-b-lg}](https://goloansnap.com)
+**Director of DevOps & IT**  
+July 2019 - Present
 
-niolabs is a startup focused on making distributed systems and Internet of Things implementations easier for technical and non-technical users. Learn more at [https://niolabs.com](https://niolabs.com).
+A series B fin-tech company in the mortgage industry focused on saving people money and streamlining the mortgage lending process. Learn more at [https://goloansnap.com](https://goloansnap.com).
 {:.smaller}
 </div>
 
- * Architected and developed the core software product - a distributed platform for running real-time applications on disparate devices
- * Grew revenue of licenses and services to over $5M per year
- * Managed the entire engineering team (20 developers & engineers)
- * Automated and secured our on-prem and cloud infrastructure
- * Created numerous Internet of Things architectures, implementations, and technical deliverables across many industries
- * Managed outsource and offshore development and integration partners
+ * Responsible for the uptime and security of our full software stack which runs on Kubernetes in Amazon Web Services (AWS)
+ * Organized all cloud environments with infrastructure-as-code using Terraform, Ansible, and Kustomize
+ * Implemented a containerized and autonomous CI/CD pipeline system used for dozens of software products; built with Concourse CI
+ * Managed several teams consisting of DevOps engineers, IT technicians, & internal customer support reps
+ * Converted an organization of 100+ desktop/in-office employees to a laptop-equipped and remote workforce 
+ * Made regular development contributions for performance improvements, bug fixes, and new features to our Python and JavaScript codebases
+ * Migrated a $10k/mo Google Cloud implementation to AWS with zero downtime
+ * Managed a $3M+ annual software, cloud, and SaaS budget
+ * Created a series of web apps used by internal non-technical teams to automatically view and manage our applications using Retool
+ * Designed and maintained 80+ marketing automation pipelines in Braze
+ * Represented the corporation for IT/technical concerns on dozens of state audits, partner audits, and compliance procedures
+{: .col-lg-8 }
+
+-------
+{: .col-lg-12}
+<div class="col-lg-4">
+[![niolabs](img/nio logo rectangle.png){:.p-r-lg .p-b-lg}](https://niolabs.com)
+**CTO, Founder**  
+July 2013 - June 2019
+
+niolabs was a series A startup focused on making distributed systems and Internet of Things implementations easier for technical and non-technical users. Learn more at [https://niolabs.com](https://niolabs.com).
+{:.smaller}
+</div>
+
+ * Architected and developed the core software product - a distributed platform built on Python
+ * Automated and secured our on-premise and cloud infrastructure with Terraform, Kubernetes, and Jenkins
+ * Created numerous Internet of Things architectures, implementations, and technical deliverables across many industries. Deployed to thousands of devices using Ansible and SaltStack
+ * Grew company revenue of licenses and services to over $5M per year
+ * Managed the engineering team - 20 developers & engineers spanning back-end (Python), front-end (JavaScript/React), and hardware
  * Led an initiative for our company to contribute over 1,000 hours to open-source and community development in 2018
+ * Performed live demos and pitched investors and potential clients/partners. Acted as primary technical contact for seed round and series A round investments 
 {: .col-lg-8 }
 
 -------
 {: .col-lg-12}
 
 <div class="col-lg-4">
-![deloitte](img/deloitte.png){:.p-r-lg .p-b-lg}
+[![deloitte](img/deloitte.png){:.p-r-lg .p-b-lg}](https://www2.deloitte.com/us/en.html)
 **Systems Integration Consultant**  
 July 2010 - July 2013
 
@@ -58,7 +83,7 @@ Deloitte is a global management and strategy consulting and audit firm - I was p
 **Software Engineer**  
 June 2008 - June 2010
 
-HotelReservations.com is a small firm focused on driving traffic to hotel and vacation booking sites through advertisements and search engine marketing.
+HotelReservations.com was a small firm focused on driving traffic to hotel and vacation booking sites through advertisements and search engine marketing.
 {: .smaller}
 </div>
 
@@ -69,6 +94,37 @@ HotelReservations.com is a small firm focused on driving traffic to hotel and va
 {: .col-lg-8 }
 
 </div>
+
+## Side Hustles
+---
+
+<div class="container-fluid">
+<div class="col-lg-4">
+[![XW Stats](img/xwstats-logo.png){:.p-r-lg .p-b-lg}](https://xwstats.com)
+**XW Stats**  
+
+Personalized statistics and trends for New York Times crossword puzzle solves
+{: .smaller}
+</div>
+
+A free web app where New York Times crossword subscribers can link their account and see deep statistics about how fast they solve crossword puzzles. This is a solo project that I built from scratch and grew to over 700 active users in less than 1 year. To date the app has processed and analyzed over 400,000 individually solved puzzles.
+{: .col-lg-8 }
+
+-------
+{: .col-lg-12}
+
+<div class="col-lg-4">
+[![Verge Golf](img/verge-logo.png){:.p-r-lg .p-b-lg}](https://verge.golf)
+**Verge Golf**  
+
+Tour-level insights and performance tracking for all golfers
+{: .smaller}
+</div>
+
+A freemium web and mobile app for golfers to record scores and glean insights about specifics in their golf game. The app provides all golfers access to an advanced metric, strokes gained, that is typically only available to professionals. I did all of the development work on the product and a colleague did the design/UX work.
+{: .col-lg-8 }
+</div>
+
 
 ## Education
 ---
