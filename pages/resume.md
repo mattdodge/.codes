@@ -3,12 +3,13 @@ layout: page
 title: Résumé
 description: Hands-on software technology leader
 permalink: /resume
-header-img: "img/headshot.jpg"
+header-img: "img/headshot.png"
 redirect_from:
   - /cv
+navbar: "left"
 ---
 
-This is the online version of my résumé/CV. To download a one-page PDF version of this résumé [click here]({{ site.url }}/files/matt-dodge-resume.pdf){:target="_blank"}.
+This is the online version of my résumé/CV. To download a two-page PDF version of this résumé [click here]({{ site.url }}/files/matt-dodge-resume.pdf){:target="_blank"}.
 
 {::options parse_block_html="true" /}
 
