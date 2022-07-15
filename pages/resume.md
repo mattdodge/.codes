@@ -161,17 +161,26 @@ I have been an active member of many online technical support communities over t
 
 The following are some unique experiences and skills that I have been able to work on throughout my career. These are intended to offer an insight into what I can bring to a team or be a good conversation starter during an interview.
 
+**Empowering non-technical teams to work with technical products**
+Throughout my career I have mostly worked on highly technical teams but frequently interfaced with non-technical teams. I've experienced, first hand, the difficulty these two groups often have when they work together. I believe, with the recent emergence of low-code and no-code tools, there is a way to enable the non-technical teams to interact with a technical product and finally have the agency they desire to make changes in a meaningful and secure way.
+
 **Growing a software development team from 0 to 20**  
 At niolabs I was the first developer (founder) and ultimately grew the team to have over 20 engineers. I learned and experienced first hand the different milestones that occur along the way and understand the processes that must be in place when growing a team.
+
+**Securing and protecting sensitive data and customer PII**
+LoanSnap was in the financial sector and, as such, held sensitive financial PII for hundreds of thousands of customers. The security and compliance of this data was my responsibility and I am proud to say that we did not experience a single breach in my time there.
 
 **Contributing to and utilizing the open-source community in a secure way**  
 As a frequent consumer of open-source software, both as an individual and as a technical director, I feel that it is important to give back to the community as well. By instituting goals around community and open-source development at niolabs, we, as a team of 20 engineers, were able to contribute over 1,000 hours to the open-source community in 2018. I also added open-source dependency and audit checks into our deployment pipelines so that when libraries were installed or updated a security verification took place.
 
-**Creating reliable and secure deployment pipelines**  
-In a fast-moving company you often have many small teams working on many different parts of the product. As a result, it is important to let these teams have control over the deployment and maintenance of their product lines without impacting others. Using tools like Jenkins and Terraform I created numerous secure deployment pipelines at niolabs that could be triggered and monitored by product owners.
+**Building reliable and secure deployment pipelines**  
+In a fast-moving company you often have many small teams working on many different parts of the product. As a result, it is important to let these teams have control over the deployment and maintenance of their product lines without impacting others. Using tools like Concourse CI and Terraform I have created numerous secure deployment pipelines throughout my career.
 
-**Enabling team members to have work/life balance**  
-There's no doubt that happy employees make better employees. However, in a small team especially, the work day can't stop at 6 PM every day. Outages and support requests come in on nights and weekends too. I believe we did a great job at niolabs of having satisfied developers who were able to pursue hobbies and interests outside of work.
+**Properly utilizing OKRs to drive priorities**
+OKRs, when implemented correctly, must start at the top. Business executives should establish objectives and key results for both short-term and long-term outlooks. Then, team leads can reference those OKRs to come up with their own team objectives. At LoanSnap we used OKRs successfully, even in a high-growth and rapidly changing environment, to decide what needed to be worked on. [Measure What Matters](https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221) is a great resource.
+
+**Establishing an effective on-call strategy in a small organization**
+If you have a global product but a small, US-based team, on-call is a tricky thing to get right. No one _wants_ to get paged in the middle of the night, but sadly outages don't abide by a 9-5 schedule. Using tools like PagerDuty, minimizing false positive alerts, and providing the right incentives I believe that even a small team can set up on-call effectively.
 
 **Creating a practical and effective interview process for developers**  
 Determining whether a developer will be a valuable asset to the team is extremely difficult to ascertain. While whiteboard coding and algorithmic logic puzzles seem to be the norm, I don't believe those are adequate assessments of a prospective candidate. At niolabs I implemented a unique and effective interview process that involved some take-home work, live collaborative coding, and an objective assessment matrix.
