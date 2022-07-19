@@ -27,12 +27,12 @@ A series B fin-tech company in the mortgage industry focused on saving people mo
 
  * Responsible for the uptime and security of our full software stack which runs on Kubernetes in Amazon Web Services (AWS)
  * Organized all cloud environments with infrastructure-as-code using Terraform, Ansible, and Kustomize
- * Implemented a containerized and autonomous CI/CD pipeline system used for dozens of software products; built with Concourse CI
  * Managed several teams consisting of DevOps engineers, IT technicians, & internal customer support reps
+ * Managed a $3M+ annual software, cloud, and SaaS budget
+ * Implemented a containerized and autonomous CI/CD pipeline system used for dozens of software products; built with Concourse CI
  * Converted an organization of 100+ desktop/in-office employees to a laptop-equipped and remote workforce 
  * Made regular development contributions for performance improvements, bug fixes, and new features to our Python and JavaScript codebases
  * Migrated a $10k/mo Google Cloud implementation to AWS with zero downtime
- * Managed a $3M+ annual software, cloud, and SaaS budget
  * Created a series of web apps used by internal non-technical teams to automatically view and manage our applications using Retool
  * Designed and maintained 80+ marketing automation pipelines in Braze
  * Represented the corporation for IT/technical concerns on dozens of state audits, partner audits, and compliance procedures
@@ -84,7 +84,7 @@ Deloitte is a global management and strategy consulting and audit firm - I was p
 **Software Engineer**  
 June 2008 - June 2010
 
-HotelReservations.com was a small firm focused on driving traffic to hotel and vacation booking sites through advertisements and search engine marketing.
+HotelReservations.com was an online marketing firm focused on driving traffic to hotel and vacation booking sites through advertisements and search engine marketing.
 {: .smaller}
 </div>
 
@@ -108,7 +108,7 @@ Personalized statistics and trends for New York Times crossword puzzle solves
 {: .smaller}
 </div>
 
-A free web app where New York Times crossword subscribers can link their account and see deep statistics about how fast they solve crossword puzzles. This is a solo project that I built from scratch and grew to over 700 active users in less than 1 year. To date the app has processed and analyzed over 400,000 individually solved puzzles.
+A free web app where New York Times crossword subscribers can see deep statistics about how fast they solve crossword puzzles. This is a solo project that I built from scratch and grew to over 700 active users in less than 1 year. To date the app has processed and analyzed over 400,000 individually solved puzzles.
 {: .col-lg-8 }
 
 -------
@@ -122,7 +122,7 @@ Tour-level insights and performance tracking for all golfers
 {: .smaller}
 </div>
 
-A freemium web and mobile app for golfers to record scores and glean insights about specifics in their golf game. The app provides all golfers access to an advanced metric, strokes gained, that is typically only available to professionals. I did all of the development work on the product and a colleague did the design/UX work.
+A freemium web and mobile app for golfers to record scores and glean insights about specifics in their golf game. The app provides all golfers access to an advanced metric, strokes gained, that is typically only available to professionals. I performed all of the development work on the product and a colleague completed the design/UX work.
 {: .col-lg-8 }
 </div>
 
